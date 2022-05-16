@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CalculatorTests">
+  <test thread-count="5" name="CalculatorTest">
+  	<classes>
+  		<class name="CalculatorTest">
+  			<methods>
+    			<include name="test_fillDataToCalculateBorrowAmount"></include>
+    			<include name="test_startOver"></include>
+   				 <include name="test_calculateOnlyWithLivingExpense"></include>
+   			</methods>
+  		</class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
