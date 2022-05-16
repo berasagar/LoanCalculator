@@ -1,4 +1,4 @@
-# anzpractice
+# Loan Calculator
 Basic test cases for loan borrow amount calculation
 Steps to Execute Test =>
 Right click on src/test/java -> Run As -> TestNG Test.
